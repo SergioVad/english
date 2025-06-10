@@ -2,7 +2,7 @@ import { classNames } from '../../shared/helpers/classNames/classNames';
 import cls from './MediaBlock.module.css';
 import { memo, useState, useEffect } from 'react';
 
-// Импортируем все изображения напрямую
+// 🔁 Явно импортируем все изображения
 import img1 from '../../shared/assets/img/media/1.jpeg';
 import img2 from '../../shared/assets/img/media/2.jpeg';
 import img3 from '../../shared/assets/img/media/3.jpeg';
@@ -47,7 +47,7 @@ import img41 from '../../shared/assets/img/media/41.jpeg';
 import img42 from '../../shared/assets/img/media/42.jpeg';
 import img43 from '../../shared/assets/img/media/43.jpeg';
 
-// Массив с изображениями
+// 📦 Массив с путями к изображениям
 const imagePaths = [
     img1,
     img2,
@@ -173,7 +173,7 @@ export const MediaBlock = memo((props: MediaBlockProps) => {
         }
 
         return () => {
-            document.body.style.overflow = ''; // сброс при размонтировании
+            document.body.style.overflow = '';
         };
     }, [isModalOpen]);
 
@@ -213,7 +213,7 @@ export const MediaBlock = memo((props: MediaBlockProps) => {
                                 } в полном размере`}
                             >
                                 <img
-                                    src={path}
+                                    src={path} // ✅ Теперь здесь правильный путь
                                     alt={`Image ${index + 1}`}
                                     loading="lazy"
                                     className={cls.image}
