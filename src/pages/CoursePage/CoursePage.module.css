@@ -1,0 +1,10 @@
+.CoursePage {
+}
+
+.course {
+    background-color: rgb(31 41 55);
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}

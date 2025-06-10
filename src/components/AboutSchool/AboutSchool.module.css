@@ -1,0 +1,14 @@
+.AboutSchool {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(31 41 55);
+}
+
+.wrapper_descr {
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(156 163 175);
+}

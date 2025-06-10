@@ -1,0 +1,45 @@
+.Programs {
+    background-color: rgb(31 41 55);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.Programs h3 {
+    text-align: center;
+}
+
+.block {
+    border: 1px solid rgb(52, 67, 88);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(17 24 39);
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.block:hover {
+    scale: 1.1;
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.descr {
+    color: rgb(156 163 175);
+}
+
+.wrapper_blocks {
+    margin-top: 50px;
+}
+
+.subtitle {
+    margin: 20px auto 0 auto;
+    width: 800px;
+    color: rgb(156 163 175);
+}

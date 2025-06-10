@@ -1,0 +1,18 @@
+.MainBlock {
+    background: linear-gradient(to right, #212121, #ffffff);
+    padding-top: 200px;
+    height: 90vh;
+}
+
+.title {
+    /* background-image: linear-gradient(to right, #ffffffcc, #1a1a1acc); */
+    background-image: linear-gradient(to right, #ffa726, #ffcc80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.descr {
+    font-size: 25px;
+    margin: 20px 0 0 0;
+    color: white;
+}
