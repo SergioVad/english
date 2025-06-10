@@ -1,6 +1,6 @@
 import { classNames } from '../../shared/helpers/classNames/classNames';
 import { memo } from 'react';
-import Logo from '../../shared/assets/img/logo/BRITANIKO_vertical.svg';
+import Logo from '../../shared/assets/img/logo/logo_vertical.svg';
 import { HStack } from '../../shared/ui/Stack';
 import cls from './Header.module.css';
 

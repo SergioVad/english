@@ -18,18 +18,20 @@ export const Programs = memo((props: ProgramsProps) => {
                 стандартам и адаптированы под русскоязычных учеников
             </div>
             <HStack justify="center" gap="32" className={cls.wrapper_blocks}>
-                <div className={cls.block}>
-                    <span className={cls.title}>Курсы</span>
-                    <br />
-                    <br />
-                    <span className={cls.descr}>
-                        У нас вы найдете программы для детей, подростков и
-                        взрослых с любым уровнем подготовки. Опытные
-                        преподаватели — профессоры НГУ и носители языка —
-                        помогут вам
-                    </span>
-                    <br />
-                </div>
+                <a href="/course">
+                    <div className={cls.block}>
+                        <span className={cls.title}>Курсы</span>
+                        <br />
+                        <br />
+                        <span className={cls.descr}>
+                            У нас вы найдете программы для детей, подростков и
+                            взрослых с любым уровнем подготовки. Опытные
+                            преподаватели — профессоры НГУ и носители языка —
+                            помогут вам
+                        </span>
+                        <br />
+                    </div>
+                </a>
                 <div className={cls.block}>
                     <span className={cls.title}>Методики преподавания</span>
                     <br />

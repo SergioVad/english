@@ -38,6 +38,10 @@
     margin-top: 50px;
 }
 
+.wrapper_blocks a {
+    text-decoration: none;
+}
+
 .subtitle {
     margin: 20px auto 0 auto;
     width: 800px;
